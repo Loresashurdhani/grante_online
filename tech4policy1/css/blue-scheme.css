@@ -10,7 +10,7 @@ http://www.templatemo.com/preview/templatemo_460_medigo
 	BASIC STYLES 
 --------------------------------------------------------*/
 body {
-  background: white;
+  background: #efefef;
   font-size: 16px;
   font-family: "PT Serif", Georgia, serif;
   font-weight: normal;
@@ -21,9 +21,24 @@ body {
   /* Fix for webkit rendering */
   -webkit-text-size-adjust: 100%;
 }
+.card-body{
+  padding: 5px 10px 10px 10px;
+}
+.card-body, .col-md-8, .myRow3{
+  background: #fff;
+  border-radius: 1em;
+  
+}
 .myRow{
   height: 650px;
-  border-bottom: 1px solid grey;
+  
+}
+.myRow3{
+  padding:0 50px 0 50px;
+}
+.col-md-8, .col-md-4{
+  margin-top: 20px!important;
+ 
 }
 .logo{
   width: 100%;
@@ -1169,7 +1184,7 @@ blockquote {
 	Sidebar Styling 
 --------------------------------------------------------*/
 .sidebar {
-  margin-top: 130px;
+  margin-top: 30px;
   margin-bottom: 100px;
 }
 
