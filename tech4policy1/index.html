@@ -20,10 +20,12 @@
 	<link rel="stylesheet" href="bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="css/misc.css">
 	<link rel="stylesheet" href="css/blue-scheme.css">
+        <link href="css/jquery.bxslider.css" rel="stylesheet" />
 	
 	<!-- JavaScripts -->
 	<script src="js/jquery-1.10.2.min.js"></script>
 	<script src="js/jquery-migrate-1.2.1.min.js"></script>
+	<script src="js/jquery.bxslider.js"></script>
 
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 
@@ -60,7 +62,7 @@
 
 					<div class="pull-left logo">
 						<a href="index.html">
-							<img src="images/logo.png" alt="Medigo by templatemo">
+							<img style="width:70px;" src="images/logo1.png" alt="Medigo by templatemo"><h3 class="archive-title">Komuna e Prizrenit</h3>
 						</a>
 					</div>	<!-- /.logo -->
 
@@ -104,19 +106,13 @@
 		</div> <!-- /.container -->
 	</header> <!-- /.site-header -->
 
-	<section id="homeIntro" class="parallax first-widget">
-	    <div class="parallax-overlay">
-		    <div class="container home-intro-content">
-		        <div class="row">
-		        	<div class="col-md-12">
-		        		<h2>Choose the Optimal Workspace for Your Business</h2>
-		        		<p>We asked six entrepreneurs with drastically different office strategies for their advice on<br> choosing a workspace. </p>
-		        		<a href="#" class="large-button white-color">Download Free <i class="icon-button fa fa-download"></i></a>
-		        	</div> <!-- /.col-md-12 -->
-		        </div> <!-- /.row -->
-		    </div> <!-- /.container -->
-	    </div> <!-- /.parallax-overlay -->
-	</section> <!-- /#homeIntro -->
+	<div class="slider">
+		<ul class="bxslider">
+                    <li><img src="images/includes/blog.jpg" /></li>
+                    <li><img src="images/includes/blog2.jpg" /></li>
+                    <li><img src="images/includes/blog3.jpg" /></li>
+              </ul>		
+	</div>
 
 	<section class="cta clearfix">
 		<div class="container">
@@ -520,6 +516,15 @@
 	<!-- Scripts -->
 	<script src="js/min/plugins.min.js"></script>
 	<script src="js/min/medigo-custom.min.js"></script>
+	<script>
+	      
+
+    $('.bxslider').bxSlider({
+		pager: false,
+		controls: false,
+		auto:true
+    });
+</script>
 
 </body>
 </html>
