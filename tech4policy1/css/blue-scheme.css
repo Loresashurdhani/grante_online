@@ -24,18 +24,24 @@ body {
 .card-body{
   padding: 5px 10px 10px 10px;
 }
-.card-body, .col-md-8, .myRow3{
+.sidebar, .col-md-8{
   background: #fff;
   border-radius: 0.5em;
+<<<<<<< HEAD
+=======
+  box-shadow: 1px 0.5px 1px lightgrey;
+  
+>>>>>>> b0bd23e737bd61d316fd31cdd3c889dfad9ec4e0
 }
 
 .myRow{
-  height: 650px;
+  margin-top: 10px;
   
 }
 .myRow3{
-  
+  margin-bottom: 30px;
 }
+
 .col-md-8, .col-md-4{
   margin-top: 20px!important;
  
@@ -507,7 +513,7 @@ input.mainBtn {
 }
 
 .parallax-overlay {
-  background-color: rgba(0, 0, 0, 0.35);
+  background-color: rgba(0, 0, 0, 0.45);
   height: 200px;
 }
 
@@ -518,7 +524,6 @@ input.mainBtn {
 
 .page-title {
   color: white;
-  margin: 40px 0 0 0;
   font-size: 30px;
   font-weight: 800;
 }
@@ -1014,13 +1019,18 @@ blockquote {
 .latest-posts h4.post-title a {
   color: white;
 }
+
 .latest-posts .meta-post-date {
   margin-left: 25px;
   font-size: 14px;
 }
-
+.pull-right{
+  position: relative;
+  
+}
 .blog-posts {
   margin-top: 100px;
+  margin-bottom: 30px;
 }
 
 .post-blog {
@@ -1183,10 +1193,7 @@ blockquote {
 /*------------------------------------------------------
 	Sidebar Styling 
 --------------------------------------------------------*/
-.sidebar {
- 
-  margin-bottom: 100px;
-}
+
 
 .sidebar-widget {
   margin-bottom: 60px;
@@ -1314,10 +1321,14 @@ blockquote {
   background-color: #d15858;
   padding: 14px 20px;
 }
-
+.col-md-10{
+  width:100%;
+}
 .site-footer {
-  background-color: #f1f4f5;
-  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  background-color: #fff;
   color: #aaaaaa;
   font-family: "Raleway", sans-serif;
 }
@@ -1346,10 +1357,10 @@ blockquote {
 /*------------------------------------------------------
 	RESPONSIVE STYLES 
 --------------------------------------------------------*/
-@media (max-width: 991px) {
+ 
   .site-header {
-    padding: 17px 0;
-    position: relative !important;
+      padding:10px !important;
+      position: relative !important;
   }
 
   .first-widget {
@@ -1377,7 +1388,7 @@ blockquote {
     margin-bottom: 40px;
     display: block;
   }
-}
+
 @media (max-width: 767px) {
   .parallax { 
 	background-position: center center !important; 
