@@ -9,6 +9,30 @@ http://www.templatemo.com/preview/templatemo_460_medigo
 /*------------------------------------------------------
 	BASIC STYLES 
 --------------------------------------------------------*/
+input[type=text], select, textarea {
+		width: 100%;
+		padding: 12px;
+		border: 1px solid #ccc;
+		border-radius: 4px; 
+		box-sizing: border-box;
+		margin-top: 6px;
+		margin-bottom: 16px;
+		resize: vertical
+     }
+  
+		input[type=submit] {
+		background-color: #4CAF50;
+		color: white;
+		padding: 12px 20px;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+}
+		input[type=submit]:hover {
+		background-color: #45a049;
+}
+
+	
 body {
   background: #efefef;
   font-size: 16px;
@@ -27,11 +51,9 @@ body {
 .sidebar, .col-md-8{
   background: #fff;
   border-radius: 0.5em;
-<<<<<<< HEAD
-=======
+
   box-shadow: 1px 0.5px 1px lightgrey;
-  
->>>>>>> b0bd23e737bd61d316fd31cdd3c889dfad9ec4e0
+
 }
 
 .myRow{
