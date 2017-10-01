@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<title>Medigo Blue, free responsive template</title>
+	<title>Grante Online</title>
     <meta name="keywords" content="">
 	<meta name="description" content="">
     <meta name="author" content="templatemo">
@@ -21,7 +21,7 @@
 	<link rel="stylesheet" href="css/misc.css">
 	<link rel="stylesheet" href="css/blue-scheme.css">
         <link href="css/jquery.bxslider.css" rel="stylesheet" />
-	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="../images/favicon.png" type="image/x-png"/>
 <?php 
 // Start session
 session_start(); 
