@@ -16,19 +16,13 @@
 	<link href="http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700itali" rel="stylesheet">
 	<link href="http://fonts.googleapis.com/css?family=Raleway:400,900,800,700,500,200,100,600" rel="stylesheet">
 
-	<!-- Stylesheets -->
-<<<<<<< HEAD
+
 	<link rel="stylesheet" href="../bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="../css/misc.css">
 	<link rel="stylesheet" href="../css/blue-scheme.css">
         <link href="../css/jquery.bxslider.css" rel="stylesheet" />
-	<link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
-=======
-	<link rel="stylesheet" href="bootstrap/bootstrap.css">
-	<link rel="stylesheet" href="css/misc.css">
-	<link rel="stylesheet" href="css/blue-scheme.css">
-        <link href="css/jquery.bxslider.css" rel="stylesheet" />
-	<link rel="shortcut icon" href="../images/favicon.png" type="image/x-png"/>
+<link rel="shortcut icon" href="../images/favicon.png" type="image/x-png"/>
+
 <?php 
 // Start session
 session_start(); 
@@ -47,7 +41,7 @@ session_start();
         else { $_SESSION['user'] = 123;} 
 
 ?> 
->>>>>>> 8c110ed48e8853c6db5ee06c90053727c2854b2f
+
 </head>
 <body>
 	<div class="responsive_menu">
@@ -90,7 +84,7 @@ session_start();
 
 						<nav class="main-nav visible-md visible-lg">
 							<ul class="sf-menu">
-								<li><a href="index1.html">Ballina</a></li>
+								<li><a href="index.html">Ballina</a></li>
 					            <li><a href="legjislacioni.html">Legjislacioni</a>
 								</li>
 					            <li><a href="arkiva.html">Arkiva</a>
