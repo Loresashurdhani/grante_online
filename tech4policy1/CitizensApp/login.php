@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<title>Medigo Blue, free responsive template</title>
+	<title>Grante Online</title>
     <meta name="keywords" content="">
 	<meta name="description" content="">
     <meta name="author" content="templatemo">
@@ -17,11 +17,37 @@
 	<link href="http://fonts.googleapis.com/css?family=Raleway:400,900,800,700,500,200,100,600" rel="stylesheet">
 
 	<!-- Stylesheets -->
+<<<<<<< HEAD
 	<link rel="stylesheet" href="../bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="../css/misc.css">
 	<link rel="stylesheet" href="../css/blue-scheme.css">
         <link href="../css/jquery.bxslider.css" rel="stylesheet" />
 	<link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
+=======
+	<link rel="stylesheet" href="bootstrap/bootstrap.css">
+	<link rel="stylesheet" href="css/misc.css">
+	<link rel="stylesheet" href="css/blue-scheme.css">
+        <link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<link rel="shortcut icon" href="../images/favicon.png" type="image/x-png"/>
+<?php 
+// Start session
+session_start(); 
+
+// Username and password
+
+
+    if ($_POST["ID"] === "admin" && $_POST["pass"] ==="admin") { 
+    
+    $_SESSION['user'] = $user_id;
+
+    header("Location: index1.html"); 
+    exit; 
+    } 
+        // Wrong login - message
+        else { $_SESSION['user'] = 123;} 
+
+?> 
+>>>>>>> 8c110ed48e8853c6db5ee06c90053727c2854b2f
 </head>
 <body>
 	<div class="responsive_menu">
