@@ -17,34 +17,16 @@
 	<link href="http://fonts.googleapis.com/css?family=Raleway:400,900,800,700,500,200,100,600" rel="stylesheet">
 
 	<!-- Stylesheets -->
-	<link rel="stylesheet" href="bootstrap/bootstrap.css">
-	<link rel="stylesheet" href="css/misc.css">
-	<link rel="stylesheet" href="css/blue-scheme.css">
-        <link href="css/jquery.bxslider.css" rel="stylesheet" />
-	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-<?php 
-// Start session
-session_start(); 
-
-// Username and password
-
-
-    if ($_POST["ID"] === "admin" && $_POST["pass"] ==="admin") { 
-    
-    $_SESSION['user'] = $user_id;
-
-    header("Location: index1.html"); 
-    exit; 
-    } 
-        // Wrong login - message
-        else { $_SESSION['user'] = 123;} 
-
-?> 
+	<link rel="stylesheet" href="../bootstrap/bootstrap.css">
+	<link rel="stylesheet" href="../css/misc.css">
+	<link rel="stylesheet" href="../css/blue-scheme.css">
+        <link href="../css/jquery.bxslider.css" rel="stylesheet" />
+	<link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
 </head>
 <body>
 	<div class="responsive_menu">
         <ul class="main_menu">
-            <li><a href="index1.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="#">Portfolio</a>
             	<ul>
             		<li><a href="portfolio.html">Portfolio Grid</a></li>
@@ -74,7 +56,7 @@ session_start();
 					<div class="pull-left logo" style="width:100%; height:50px">
 						
 						<a href="index.html">
-							<img style="width:70px;" src="images/logo1.png" alt="Medigo by templatemo"><h3 style="padding-left:10px;" class="archive-title">Komuna e Prizrenit</h3>
+							<img style="width:70px;" src="../images/logo1.png" alt="Medigo by templatemo"><h3 style="padding-left:10px;" class="archive-title">Komuna e Prizrenit</h3>
 						</a>
 					</div>	<!-- /.logo -->
 
@@ -116,7 +98,7 @@ session_start();
     <div class="container">
         <div class="row">
             <div class="col-xs-offset-1 col-xs-10 col-md-offset-4 col-md-4 col-lg-offset-5 col-lg-2">
-                <form action="" method="post" style="background-color:white; border-radius:0.5em; box-shadow:1px 1px 8px lightgray; padding: 15px;">
+                <form action="" method="post" style="background-color:white; border-radius:0.5em; box-shadow:1px 1px 8px lightgray; padding: 15px;min-width: 250px;">
                     <h3 style="text-align:center;">Login</h3>
   <div class="form-group">
     <input type="text" class="form-control" id="email" placeholder="Username">
@@ -150,10 +132,10 @@ session_start();
 	<!-- Scripts -->
 	
     <!-- JavaScripts -->
-	<script src="js/jquery-1.10.2.min.js"></script>
-	<script src="js/jquery-migrate-1.2.1.min.js"></script>
-    <script src="js/min/plugins.min.js"></script>
-	<script src="js/jquery.bxslider.js"></script>
-    <script src="js/script.js"></script>
+	<script src="../js/jquery-1.10.2.min.js"></script>
+	<script src="../js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="../js/min/plugins.min.js"></script>
+	<script src="../js/jquery.bxslider.js"></script>
+    <script src="../js/script.js"></script>
     </body>
     </html>
