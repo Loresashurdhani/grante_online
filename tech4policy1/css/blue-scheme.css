@@ -19,7 +19,11 @@ input[type=text], select, textarea {
 		margin-bottom: 16px;
 		resize: vertical
      }
-  
+  .file {
+  visibility: hidden;
+  position: absolute;
+}
+
 		input[type=submit] {
 		background-color: #4CAF50;
 		color: white;
